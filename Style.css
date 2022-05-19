@@ -1,0 +1,11 @@
+div {
+  display: flex;
+}
+#Content1 {
+  background-color: aqua;
+  color: coral;
+  opacity: 0.3;
+}
+.Content2 {
+  background-color: blueviolet;
+}

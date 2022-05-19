@@ -1,0 +1,109 @@
+/*
+li {
+  display: inline-block;
+}
+nav {
+  display: inline-block;
+  padding-top: 10px;
+  margin-left: 200px;
+  margin-bottom: 15px;
+}
+ul {
+  width: 1000px;
+  margin-top: 20px;
+  display: inline-block;
+}
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background-color: white;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+}
+
+#Continer {
+  background-image: url("/img/teckimage.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+#Content {
+  height: 100%;
+}
+
+#DropDown {
+}
+
+#DropDown_Button {
+  display: inline;
+  border-width: 0ch;
+  background-color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
+#DropDown_Button:hover {
+}
+#DropDown_Content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+li {
+  margin-left: 5%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+header {
+  position: sticky;
+}
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#Welcome {
+  font-size: 40px;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+p {
+  color: rgb(25, 85, 214);
+  font-size: 40px;
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Describtion {
+  font-size: 25px;
+  margin-left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(97, 96, 96);
+}
+#StartButton {
+  margin-top: 30px;
+  margin-left: 10%;
+  padding: 10px;
+  border-radius: 8%;
+  background-color: rgb(25, 85, 214);
+  color: white;
+  border-width: 0ch;
+}
+
+#testing {
+  display: flex;
+}
+*/
+
+li {
+  display: inline-block;
+}
+ul {
+  margin: 0px;
+}

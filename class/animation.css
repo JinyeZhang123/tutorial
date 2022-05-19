@@ -1,0 +1,15 @@
+.child {
+  background-color: brown;
+  height: 40%;
+  width: 40%;
+  transition: transform 1s;
+}
+.parent {
+  background-color: cadetblue;
+  height: 500px;
+  width: 500px;
+}
+
+.parent:hover .child {
+  transform: translateX(300px);
+}

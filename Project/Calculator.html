@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="Calculator.js"></script>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <div id="Calculator">
+        <div id="Top">
+            <div id="Screen">0<div id="result">test</div></div>
+            <button id="Clear" onclick="clean()">C</button>
+        </div>
+        <div id="bottom">
+            <table id="buttons">
+                <ul class="row">
+                    <li id="1"><button class="button" onclick="screenshow('1')">1</button></li>
+                    <li id="2"><button class="button" onclick="screenshow('2')">2</button></li>
+                    <li id="3"><button class="button" onclick="screenshow('3')">3</button></li>
+                    <li id="/"><button class="button" onclick="screenshow('/')">/</button></li>
+                </ul>
+                <ul class="row">
+                    <li id="4"><button class="button" onclick="screenshow('4')">4</button></li>
+                    <li id="5"><button class="button" onclick="screenshow('5')">5</button></li>
+                    <li id="6"><button class="button" onclick="screenshow('6')">6</button></li>
+                    <li id="-"><button class="button" onclick="screenshow('-')">-</button></li>
+                </ul>
+                <ul class="row">
+                    <li id="7"><button class="button" onclick="screenshow('7')">7</button></li>
+                    <li id="8"><button class="button" onclick="screenshow('8')">8</button></li>
+                    <li id="9"><button class="button" onclick="screenshow('9')">9</button></li>
+                    <li id="+"><button class="button" onclick="screenshow('+')">+</button></li>
+                </ul>
+                <ul class="row">
+                    <li id="."><button class="button" onclick="screenshow('.')">.</button></li>
+                    <li id="0"><button class="button" onclick="screenshow('0')">0</button></li>
+                    <li id="="><button class="button" onclick="equal()">=</button></li>
+                    <li id="*"><button class="button" onclick="screenshow('*')">*</button></li>
+                </ul>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>

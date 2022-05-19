@@ -1,0 +1,138 @@
+li {
+  display: inline;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0);
+}
+ul {
+  margin-left: 25%;
+  margin-top: 5%;
+  display: inline;
+}
+nav {
+  display: inline;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0ch;
+}
+.continer {
+  background-image: url("/img/Background.webp");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+#sign {
+  display: inline;
+}
+#Signin {
+  border-radius: 8%;
+  border-color: aliceblue;
+  background-color: rgba(0, 0, 0, 0);
+  color: aliceblue;
+  padding: 7px;
+  border-width: 2px;
+}
+
+#Signup {
+  border-radius: 5%;
+  border-color: black;
+  background-color: rgb(228, 187, 5);
+  color: black;
+  padding: 8px;
+  border-width: 1px;
+}
+#Signup:hover {
+  border-color: rgb(228, 187, 5);
+  color: rgb(228, 187, 5);
+  background-color: white;
+}
+#Signin:hover {
+  color: black;
+  background-color: aliceblue;
+}
+
+#signinput {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  border-radius: 50%;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  display: block;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  color: aliceblue;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+#leftbutton {
+  border-radius: 3%;
+  border-color: aliceblue;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: aliceblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-width: 2px;
+  margin: 2%;
+  display: inline;
+  margin-left: auto;
+  margin-right: 1%;
+}
+
+#rightbutton {
+  border-radius: 3%;
+  border-color: rgb(12, 99, 175);
+  background-color: rgb(12, 99, 175);
+  color: aliceblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-width: 2px;
+  margin: 2%;
+  display: inline;
+  margin-left: 1%;
+  margin-right: auto;
+}
+#lowerbutton {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer {
+  margin-top: 15%;
+  text-align: center;
+  color: aliceblue;
+}
+
+#rightbutton:hover {
+  color: rgb(12, 99, 175);
+  background-color: aliceblue;
+}
+#leftbutton:hover {
+  color: black;
+  background-color: aliceblue;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+header {
+  padding-top: 20px;
+  background-color: rgba(221, 17, 17, 0.082);
+}

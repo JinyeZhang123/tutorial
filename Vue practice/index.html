@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <link rel="stylesheet" href="practice1.css">
+    
+</head>
+<body>
+    <div id="app">
+        <div v-if="showbooks">
+            <p>{{title}}-{{age}}</p>
+            <button v-on:click="age++">Increase age</button>
+            <button v-on:click="age--">decrease age</button>
+            <div v-on:click="changetitle">Change title</div>
+        </div>
+        <button v-on:click="hidebooks">{{bookstatu}}</button>
+        <br>
+        <a :href="url">youtube</a>
+        
+        <img :src="books[0].img" :alt="books[1].title">
+        <div class="box" @mouseover="handlemouseover($event, 8)">mouseover</div>
+        <div class="box" @mouseleave="handlemouseleave">mouseleave</div>
+        <div class="box" @dblclick="handledoubleclick">doubleclick</div>
+        <div class="box" @mousemove="handlemousemove">{{x}}--{{y}}</div>
+        <br>
+       
+
+        <input type="text" name="firstname" v-model="firstname">
+        <input type="text" name="lastname" v-model="lastname">
+        <div>
+            fullname is {{fullname}}
+        </div>
+        <input type="text" name="message" v-model="message">
+        <div>
+            This Is The Reversed Message {{reversedMessage}}
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

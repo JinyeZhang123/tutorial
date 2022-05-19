@@ -1,0 +1,181 @@
+#Continer {
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0%;
+}
+.li {
+  list-style-type: none;
+  padding: 4%;
+}
+#start {
+  list-style-type: none;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+}
+#logo {
+  display: inline-block;
+  margin: 0%;
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+nav {
+  display: inline-block;
+  width: 70%;
+  padding-left: 20%;
+}
+header {
+  padding: 30px;
+}
+#Start {
+  display: inline-block;
+}
+.button {
+  border-radius: 5%;
+  width: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: rgb(152, 216, 91);
+  color: aliceblue;
+  border-width: 0ch;
+}
+.button1 {
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+  text-decoration: none;
+}
+
+#layer {
+  background-color: rgba(54, 125, 219, 0.9);
+  height: 100%;
+  background-size: cover;
+}
+#section1 {
+  margin-top: 100px;
+  text-align: center;
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+#section2 {
+  text-align: center;
+  background-color: rgb(21, 114, 235);
+  height: 20%;
+  color: aliceblue;
+}
+#searchbar {
+  padding-left: 50px;
+  height: 48px;
+  padding-right: 0px;
+  margin-right: 0px;
+  display: inline-block;
+  border-width: 0ch;
+  width: 500px;
+}
+#button3 {
+  margin-left: 0px;
+  display: inline-block;
+  height: 51px;
+  border-radius: 0%;
+  border-width: 1px;
+}
+#button2 {
+  height: 50px;
+  border-width: 0ch;
+  border-radius: 0%;
+}
+
+#list3 {
+  padding-top: 50px;
+  margin-top: 0%;
+  margin-left: 350px;
+}
+.li1 {
+  list-style-type: none;
+}
+
+#Continer {
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  nav {
+    ul {
+      li {
+        color: rgb(152, 167, 180);
+      }
+    }
+  }
+}
+
+#section4 {
+  background-color: rgb(208, 212, 214);
+  h1 {
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  p {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #blocks {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+    .block1 {
+      margin-left: 5%;
+      border-radius: 2%;
+      padding: 30px;
+      background-color: rgb(252, 252, 252);
+
+      h1 {
+        padding-top: 0%;
+        color: rgb(8, 8, 8);
+        font-size: x-large;
+        text-align: left;
+      }
+      p {
+        color: rgb(86, 88, 88);
+        text-align: left;
+      }
+      width: 300px;
+    }
+  }
+  h2 {
+    text-align: center;
+    font-size: xx-large;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    li {
+      list-style-type: none;
+      margin: 20px;
+    }
+  }
+}
